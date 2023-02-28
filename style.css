@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+	margin: 0px;
+	background-image: url("red.jpg");
+}
+header{
+	width: 100%; 
+	height: auto;
+	overflow: hideen;
+	background-color: #000000;
+}
+.contato{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+	margin: -4px;
+}
+.cont{
+	width: 33.3%;
+	height: auto;
+	float:left;
+}
+.cont p{
+	color: #ffffff;
+	font-family: 'Permanent Marker';
+}
+nav,section,footer{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: red;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	width:100%;
+}
+li a{
+	padding: 5% 5%;
+	width: 90%;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Anton';
+	font-size:150%;
+}
+li{
+	float: left;
+	width: 16%;
+}
+.box-11 img{
+	width: 100%;
+	border-radius: 5%;
+	padding: 15px;
+}
+.box-1 img{
+	width: 100%;
+	border-radius: 5%;
+}
+.box-2 img {
+	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	border-radius: 10%;
+}
+.cont1{
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.cont1 p,.cont2 p{
+	color: #ffffff;
+}
+.cont2{
+	width: 70%;
+	height: auto;
+	float: left;
+}
+.cont3{
+	width: 50%;
+	height: auto;
+	float: left;
+	text-align: center;
+	border-radius: px px px 0px;
+	background-color: #000000;
+}
+.cont3 p{
+	color: #ffffff;
+	font-family: 'roboto';
+}
+
+button{
+	background-color: #359356;
+}
+.cont4{
+	width: 33.3%;
+	height: auto;
+	float:left;
+}
+.cont4 p{
+	color: #ffffff;
+	font-family: 'roboto';
+	text-align: center;
+	margin: 10%;
+}
+@media only screen and (max-width:600px){
+	.cont,.cont1,.cont2,.cont3,.cont4,li{
+		width: 100%;
+	}
+	.cont p,.cont1 p,.cont2 p,.cont3 p,.cont4 p{
+		text-align: center;
+	}
+}
